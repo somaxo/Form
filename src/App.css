@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+  background-image: url(./assets/images/bg-intro-mobile.png) ;
+  background-color: hsl(0, 100%, 74%) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (width > 768px){
+  body{
+    background-image: url(./assets/images/bg-intro-desktop.png);
+  }
+}
